@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* The navigation bar */
+.navigation {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change background on mouse-over */
+.navigation a:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 50px;
+}
