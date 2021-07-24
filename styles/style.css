@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
 
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     background-color: black;
     color: white;
+    /* background-image: url('../images/background.png'); */
 }
 
 /* The navigation bar */
 .navigation {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(12, 12, 12);
 }
 
 .navigation a {
@@ -24,12 +26,20 @@ body {
 
 /* Change background on mouse-over */
 .navigation a:hover {
-    background-color: #04AA6D;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 h1 {
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
 }
 
 img {
@@ -37,5 +47,23 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.icons {
+    width: 10%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.home-image {
+    width: 23%;
+    padding-bottom: 30px;
 }
